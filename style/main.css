@@ -40,6 +40,9 @@ main {
 .content {
     flex: 1;
 }
+footer{
+    padding-top: 87px;
+}
 .ft{
     display: flex;
 }
@@ -53,6 +56,11 @@ main {
 }
 .ft-img{
     width: 100%;
+}
+
+.list {
+    list-style-position: inside;
+    flex: 1;
 }
 
 .img-lable{
