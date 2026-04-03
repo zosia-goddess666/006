@@ -50,22 +50,20 @@ footer{
     flex: 1;
     margin: 10px;
     position: relative;
+    overflow: hidden;
 }
-.res>.img-lable{
-    bottom: 0;
-}
+
 .ft-img{
     width: 100%;
 }
-
 .list {
     list-style-position: inside;
     flex: 1;
 }
-
 .img-lable{
     background-color: #1A142D;
     font-weight: 500;
+    font-size: 12px;
     color: white;
     padding: 5px 12px;
     position: absolute;
@@ -74,4 +72,7 @@ footer{
     width: 100%;
     box-sizing: border-box;
     transition: bottom 0.2s linear;
+}
+.res:hover>.img-lable{
+    bottom: 0;
 }
